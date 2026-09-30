@@ -1,0 +1,6 @@
+[build]
+  # Build from the repository root (overrides the invalid base directory set in the Netlify UI)
+  base = "."
+  # No web build step is needed (overrides the invalid build command set in the Netlify UI)
+  command = "echo 'No build step required'"
+  publish = "site"
